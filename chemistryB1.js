@@ -194,7 +194,7 @@ chemSubmit.addEventListener("click", () => {
     chemQuestions.textContent = chemistryA[26];
   } else if(chemQuestions.textContent == chemistryA[26] && chemAnswers.value == chemistryQ[26]) {
     chemVerify.classList.add("hide");
-    chemQuestions.innerHTML = "Congratulations, you can move on to the next <a href='file:///C:/j.s-basics/chemistryBasics10.html'>level</a>";
+    chemQuestions.innerHTML = "Congratulations, you can move on to the next <a href='https://inuni4.github.io/chemB/chemistryBasics10.html'>level</a>";
     chemAnswers.classList.add("hide");
     chemSubmit.classList.add("hide");
     chemAnswers.value = "";
