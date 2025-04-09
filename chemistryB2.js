@@ -117,7 +117,7 @@ chemSubmit.addEventListener("click", () => {
     chemAnswers.value = "";
   } else if(chemQuestions.textContent == chemistryA[15] && chemAnswers.value == chemistryQ[15]) {
     chemVerify.classList.add("hide");
-    chemQuestions.innerHTML = "Congratulations, you can move on to the next <a href='https://inuni4.github.io/chemB/chemistryB1.html'>level</a>";
+    chemQuestions.innerHTML = "Congratulations, you can move on to the next <a href='https://inuni4.github.io/chemB/chemistryB3.html'>level</a>";
     chemAnswers.classList.add("hide");
     chemSubmit.classList.add("hide");
     chemAnswers.value = "";
